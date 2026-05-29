@@ -151,7 +151,7 @@ docker stop mypostgres
 Удаляем контейнер и образ:
 
 ```bash
-docker rmi -f mypostgres
+docker rmi -f mypostgres 1b92e7a80c02
 ```
 
 Чистим все неиспользуемые ресурсы Docker:
