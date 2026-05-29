@@ -18,7 +18,7 @@ type User struct {
 }
 
 // Строка подключения к Postgres
-const dbURI = "postgres://demo:demo@mypostgres:5432/postgres"
+const dbURI = "postgres://demo:demo@mypostgres:5234/postgres"
 
 // Глобальная переменная для пула соединений с базой данных
 var db *pgxpool.Pool
